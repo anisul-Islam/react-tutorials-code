@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './style.css'
 
-export class EVENT_HANDLING extends Component {
+export class EVENT_HANDLING_CLASS extends Component {
 
     constructor(props) {
         super(props)
@@ -52,4 +52,4 @@ export class EVENT_HANDLING extends Component {
     }
 }
 
-export default EVENT_HANDLING
+export default EVENT_HANDLING_CLASS
