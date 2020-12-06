@@ -6,6 +6,7 @@ import CLASS_COMPONENT from './components/CLASS_COMPONENT/index'
 import PROPS_DESTRUCTURING_FUNCTIONAL from './components/PROPS_DESTRUCTURING_FUNCTIONAL/index'
 import PROPS_DESTRUCTURING_CLASS from './components/PROPS_DESTRUCTURING_CLASS/index'
 import DATA_MAPPING from './components/DATA_MAPPING/index'
+import STATE_IN_CLASS from './components/STATE_IN_CLASS/index'
 
 export default function App() {
 
@@ -17,7 +18,8 @@ export default function App() {
             {/* <CLASS_COMPONENT /> */}
             {/* <PROPS_DESTRUCTURING_FUNCTIONAL title="Call Family" desc="Ipsum no sea sadipscing consetetur vero. Nonumy justo diam sed lorem sit"/> */}
             {/* <PROPS_DESTRUCTURING_CLASS title="Call Family" desc="Ipsum no sea sadipscing consetetur vero. Nonumy justo diam sed lorem sit"/> */}
-            <DATA_MAPPING />
+            {/* <DATA_MAPPING /> */}
+            <STATE_IN_CLASS />
         </div>
     )
 }
