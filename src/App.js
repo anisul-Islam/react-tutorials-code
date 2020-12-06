@@ -2,6 +2,7 @@ import React from 'react'
 import JSX_JS_EXPRESSION from './components/JSX_JS_EXPRESSION/index'
 import CSS_STYLE from './components/CSS_STYLE/index'
 import CARD from './components/CARD/index'
+import PROPS_DESTRUCTURING_FUNCTIONAL from './components/PROPS_DESTRUCTURING_FUNCTIONAL/index'
 
 export default function App() {
 
@@ -9,7 +10,8 @@ export default function App() {
         <div>
             {/* <JSX_JS_EXPRESSION /> */}
             {/* <CSS_STYLE /> */}
-            <CARD />
+            {/* <CARD /> */}
+            <PROPS_DESTRUCTURING_FUNCTIONAL title="Call Family" desc="Ipsum no sea sadipscing consetetur vero. Nonumy justo diam sed lorem sit"/>
         </div>
     )
 }
