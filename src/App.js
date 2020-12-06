@@ -10,6 +10,7 @@ import STATE_IN_CLASS from './components/STATE_IN_CLASS/index'
 import CONDITIONAL_RENDERING from './components/CONDITIONAL_RENDERING/index'
 import EVENT_HANDLING_CLASS from './components/EVENT_HANDLING_CLASS/index'
 import EVENT_HANDLING_FUNCTION from './components/EVENT_HANDLING_FUNCTION/index'
+import BINDING_EVENT_HANDLER from './components/BINDING_EVENT_HANDLER/index'
 
 export default function App() {
 
@@ -25,7 +26,8 @@ export default function App() {
             {/* <STATE_IN_CLASS /> */}
             {/* <CONDITIONAL_RENDERING /> */}
             {/* <EVENT_HANDLING_CLASS /> */}
-            <EVENT_HANDLING_FUNCTION />
+            {/* <EVENT_HANDLING_FUNCTION /> */}
+            <BINDING_EVENT_HANDLER />
         </div>
     )
 }
