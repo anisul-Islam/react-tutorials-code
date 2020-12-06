@@ -7,6 +7,7 @@ import PROPS_DESTRUCTURING_FUNCTIONAL from './components/PROPS_DESTRUCTURING_FUN
 import PROPS_DESTRUCTURING_CLASS from './components/PROPS_DESTRUCTURING_CLASS/index'
 import DATA_MAPPING from './components/DATA_MAPPING/index'
 import STATE_IN_CLASS from './components/STATE_IN_CLASS/index'
+import CONDITIONAL_RENDERING from './components/CONDITIONAL_RENDERING/index'
 
 export default function App() {
 
@@ -19,7 +20,8 @@ export default function App() {
             {/* <PROPS_DESTRUCTURING_FUNCTIONAL title="Call Family" desc="Ipsum no sea sadipscing consetetur vero. Nonumy justo diam sed lorem sit"/> */}
             {/* <PROPS_DESTRUCTURING_CLASS title="Call Family" desc="Ipsum no sea sadipscing consetetur vero. Nonumy justo diam sed lorem sit"/> */}
             {/* <DATA_MAPPING /> */}
-            <STATE_IN_CLASS />
+            {/* <STATE_IN_CLASS /> */}
+            <CONDITIONAL_RENDERING />
         </div>
     )
 }
