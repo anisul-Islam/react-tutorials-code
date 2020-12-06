@@ -1,0 +1,20 @@
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: limegreen;
+    color: white;
+    margin-right: 10px;
+    font-size: 1rem;
+    width: 80px;
+}
+
+input{
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+p{
+    color: red;
+    font-weight: bold;
+}
