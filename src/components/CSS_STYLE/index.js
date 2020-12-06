@@ -17,21 +17,18 @@ export default function CSS_STYLE() {
         padding:'10px'
     }
 
-
     return (
-
-
         <div>
-            
-            <h1 style={{backgroundColor : 'purple', textAlign : 'center', padding:'10px', color : 'white'}}>Todo App</h1> 
 
-             {/* Inline CSS Example  */}
+            {/* Inline CSS style Example  */}           
+            <h1 style={{backgroundColor : 'purple', textAlign : 'center', padding:'10px', color : 'white'}}>Todo App</h1> 
+             
+             {/* Inline & external CSS style using className Example  */}
             <div style={cardStyle} className="card-style">
                 <h3>{todoTitle}</h3>
                 <p>{todoDesc}</p>
                 <p>{date}</p>
-            </div>
-            
+            </div>            
         </div>
     )
 }
