@@ -9,6 +9,7 @@ import DATA_MAPPING from './components/DATA_MAPPING/index'
 import STATE_IN_CLASS from './components/STATE_IN_CLASS/index'
 import CONDITIONAL_RENDERING from './components/CONDITIONAL_RENDERING/index'
 import EVENT_HANDLING_CLASS from './components/EVENT_HANDLING_CLASS/index'
+import EVENT_HANDLING_FUNCTION from './components/EVENT_HANDLING_FUNCTION/index'
 
 export default function App() {
 
@@ -23,7 +24,8 @@ export default function App() {
             {/* <DATA_MAPPING /> */}
             {/* <STATE_IN_CLASS /> */}
             {/* <CONDITIONAL_RENDERING /> */}
-            <EVENT_HANDLING_CLASS />
+            {/* <EVENT_HANDLING_CLASS /> */}
+            <EVENT_HANDLING_FUNCTION />
         </div>
     )
 }
