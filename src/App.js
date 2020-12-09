@@ -11,6 +11,7 @@ import CONDITIONAL_RENDERING from './components/CONDITIONAL_RENDERING/index'
 import EVENT_HANDLING_CLASS from './components/EVENT_HANDLING_CLASS/index'
 import EVENT_HANDLING_FUNCTION from './components/EVENT_HANDLING_FUNCTION/index'
 import BINDING_EVENT_HANDLER from './components/BINDING_EVENT_HANDLER/index'
+import HOOKS_USESTATE from './components/HOOKS_USESTATE/index'
 
 export default function App() {
 
@@ -27,7 +28,8 @@ export default function App() {
             {/* <CONDITIONAL_RENDERING /> */}
             {/* <EVENT_HANDLING_CLASS /> */}
             {/* <EVENT_HANDLING_FUNCTION /> */}
-            <BINDING_EVENT_HANDLER />
+            {/* <BINDING_EVENT_HANDLER /> */}
+            <HOOKS_USESTATE />
         </div>
     )
 }
