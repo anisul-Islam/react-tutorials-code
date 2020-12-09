@@ -24,6 +24,7 @@ class STATE_IN_CLASS extends Component {
     render() {
 
         const {count} = this.state
+        
         return (
             <div>
                 <h1>Count : {count}</h1>
