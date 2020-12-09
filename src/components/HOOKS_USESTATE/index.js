@@ -7,9 +7,11 @@ export default function HOOKS_USESTATE() {
     const handleIncrement = () => {
         setCount(count + 1)
     }
+
     const handleDecrement = () => {
         setCount(count - 1)
     }
+    
     return (
         <div>
             <h1>Count : {count}</h1>

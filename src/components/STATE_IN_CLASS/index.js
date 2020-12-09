@@ -3,8 +3,7 @@ import './style.css'
 class STATE_IN_CLASS extends Component {
 
     constructor(props) {
-        super(props)
-    
+        super(props)    
         this.state = {
              count : 0
         }
@@ -15,6 +14,7 @@ class STATE_IN_CLASS extends Component {
             count : this.state.count + 1
         });
     }
+    
     handleDecrement = () => {
         this.setState({
             count : this.state.count - 1
