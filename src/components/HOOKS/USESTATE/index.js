@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function index() {
+export default function HOOKS_USESTATE() {
   const [count, setCount] = useState(0);
 
   const handleIncrement = () => {
