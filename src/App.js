@@ -17,7 +17,7 @@ import FORM2 from "./components/FORM/index2";
 import FORM3 from "./components/FORM/index3";
 import FORM4 from "./components/FORM/index4";
 import USESTATE_PREV from "./components/HOOKS/USESTATE_PREVIOUS_STATE/index";
-
+import USESTATE_OBJECT from "./components/HOOKS/USESTATE_OBJECT/index";
 export default function App() {
   return (
     <div>
@@ -35,7 +35,8 @@ export default function App() {
       {/* <BINDING_EVENT_HANDLER /> */}
       {/* <USESTATE /> */}
       {/* <FORM4 /> */}
-      <USESTATE_PREV />
+      {/* <USESTATE_PREV /> */}
+      <USESTATE_OBJECT />
     </div>
   );
 }
