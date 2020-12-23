@@ -12,6 +12,10 @@ import EVENT_HANDLING_CLASS from './components/EVENT_HANDLING_CLASS/index'
 import EVENT_HANDLING_FUNCTION from './components/EVENT_HANDLING_FUNCTION/index'
 import BINDING_EVENT_HANDLER from './components/BINDING_EVENT_HANDLER/index'
 import HOOKS_USESTATE from './components/HOOKS_USESTATE/index'
+import FORM1 from './components/FORM/index1'
+import FORM2 from './components/FORM/index2'
+import FORM3 from './components/FORM/index3'
+import FORM4 from './components/FORM/index4'
 
 export default function App() {
 
@@ -29,7 +33,8 @@ export default function App() {
             {/* <EVENT_HANDLING_CLASS /> */}
             {/* <EVENT_HANDLING_FUNCTION /> */}
             {/* <BINDING_EVENT_HANDLER /> */}
-            <HOOKS_USESTATE />
+            {/* <HOOKS_USESTATE /> */}
+            <FORM4 />
         </div>
     )
 }
