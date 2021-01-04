@@ -1,21 +1,43 @@
 import React, { useState, useEffect } from "react";
 
 export default function USE_EFFECT() {
-  const [count, setCount] = useState(0);
+  const [searchData, setSearchData] = useState("");
+  const [data, setData] = useState([]);
 
-  //run after every render - we can update dom, fetch data and so on here
   useEffect(() => {
-    console.log("useEffect is called");
-  }, []); //props or state that useEffect should depend to make any side effect
+    fetch("https://jsonplaceholder.typicode.com/posts")
+      .then((response) => response.json())
+      //   .then((json) => console.log(json));
+      .then((json) => {
+        setData(json);
+        console.log(data);
+      });
+  }, []);
 
-  const handleClick = () => {
-    setCount(count + 1);
+  useEffect(() => {
+    console.log(searchData);
+  }, [searchData]);
+
+  const handleChange = (e) => {
+    setSearchData(e.target.value);
   };
 
   return (
     <div>
-      <h1>Count : {count}</h1>
-      <button onClick={handleClick}>click me</button>
+      <form action="">
+        <h1>{searchData}</h1>
+        <input
+          type="text"
+          name="searchData"
+          value={searchData}
+          onChange={handleChange}
+        />
+      </form>
+      <ul>
+        {data.map((item, index) => (
+          <li key={index}>{item.title}</li>
+        ))}
+      </ul>
     </div>
   );
 }
