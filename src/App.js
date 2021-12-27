@@ -1,9 +1,11 @@
 import React from "react";
-import USE_EFFECT from "./components/HOOKS/useEffect";
+
+import Home from "./components/SATET_LIFTING/Home";
+
 export default function App() {
   return (
     <div>
-      <USE_EFFECT />
+      <Home />
     </div>
   );
 }
