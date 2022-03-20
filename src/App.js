@@ -1,11 +1,10 @@
 import React from "react";
-
-import Home from "./components/SATET_LIFTING/Home";
+import LifeCycle from "./components/LifeCycle/LifeCycle";
 
 export default function App() {
   return (
     <div>
-      <Home />
+      <LifeCycle />
     </div>
   );
 }
