@@ -1,11 +1,10 @@
 import React from "react";
-
-import Toggle from "./components/Toggle/Toggle";
+import UseReducer from "./components/HOOKS/UseReducer";
 
 export default function App() {
   return (
     <>
-      <Toggle />
+      <UseReducer />
     </>
   );
 }
