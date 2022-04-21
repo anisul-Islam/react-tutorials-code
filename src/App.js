@@ -1,10 +1,10 @@
 import React from "react";
-import UseReducer from "./components/HOOKS/UseReducer";
+import Component1 from "./components/PROP_DRILLING/Component1";
 
 export default function App() {
   return (
-    <>
-      <UseReducer />
-    </>
+    <div>
+      <Component1 />
+    </div>
   );
 }
